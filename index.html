@@ -11,24 +11,29 @@
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
-            background-position: center center;        
+            background-position: center center;  
+            margin: 85px;   
+            overflow: hidden;   
         }
         #papel-de-fundo {
-            display: relative;
-            text-align: center;
-            position: relative;
-            background-position: center center;
             background-image: url("imagens/frame-iphone.png");
             background-repeat: no-repeat;
-            height: 300px;
+            width: 300px;
+            height: 670px;
+            margin: auto;
         }
         iframe {
-            position: absolute;
+            position: relative;
+            top: 12%;
+            left: 7%;
+            width: 270px;
+            overflow: visible;
+            height: 470px;
         }
     </style>
 </head>
 <body>
     <div id="papel-de-fundo">
-    <iframe src="imagens/tela-home.jpg" frameborder="0"></iframe></div>
+    <iframe src="imagens/tela-home.jpg" frameborder="0" ></iframe></div>
 </body>
 </html>
